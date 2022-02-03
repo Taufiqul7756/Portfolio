@@ -12,7 +12,7 @@ const greeting = {
   username: "Taufiqul Islam",
   title: "Hi all, I'm Taufiq",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer having an experience of designing and building Web and Mobile applications with JavaScript / React-js / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer having an experience of designing and building Web and Mobile applications with JavaScript / React-js / Nodejs and some other cool libraries and frameworks.  "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1nksOHCiUbf6IXAvUfm2InDOPpN8zpQT7/view?usp=sharing",
@@ -146,35 +146,36 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Clever Programmer",
-      companylogo: require("./assets/images/cpLogo.png"),
-      date: "September 2020 – Present",
+      role: "Web Developer (Intern)",
+      company: "OyeBusy Technologies Pvt. Ltd.",
+      companylogo: require("./assets/images/1605072869389.jfif"),
+      date: "November 2020 – January 2021",
       desc:
         "Changing lives of developers one line of code at a time.",
       descBullets: [
-        "Custom building applications",
-        "Coaching",
-        "Streaming live on YouTube",
-        "Creating tutorials"
+        "Custom building Web applications",
+        "Testing",
+        "E-commerce Website",
+        "FinTech"
       ]
     },
     {
-      role: "Product Owner (PSD2)",
-      company: "Erste Bank",
-      companylogo: require("./assets/images/ersteLogo.jpg"),
-      date: "July 2019 – September 2020",
+      role: "UI/UX Developer",
+      company: "Behance",
+      companylogo: require("./assets/images/behance.png"),
+      date: "November 2020 – Present",
       desc:
-        "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+        "Maintaining User experience and User interface.(Figma and XD)",
+        
     },
-    {
-      role: "Junior Information Security & Systems Representative",
-      company: "Vodafone",
-      companylogo: require("./assets/images/vodafoneLogo.png"),
-      date: "November 2018 – July 2019",
-      desc:
-        "I've conducted internal audit making sure the organization is compliant with the GDPR."
-    }
+    // {
+    //   role: "Junior Information Security & Systems Representative",
+    //   company: "Vodafone",
+    //   companylogo: require("./assets/images/vodafoneLogo.png"),
+    //   date: "November 2018 – July 2019",
+    //   desc:
+    //     "I've conducted internal audit making sure the organization is compliant with the GDPR."
+    // }
   ]
 };
 
@@ -191,13 +192,13 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/HungryMart.PNG"),
       projectName: "Hungry Mart",
-      projectDesc: "HungryMart is a food delivery website . You can search foods and you can order it easily .",
+      projectDesc: "You can search foods and you can know about food details .",
       footerLink: [
         {
           name: "Visit Website",
@@ -305,7 +306,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
